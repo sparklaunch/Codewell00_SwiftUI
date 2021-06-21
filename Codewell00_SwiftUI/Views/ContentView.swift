@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
-            DiscountView()
+        ScrollView(.vertical) {
+            VStack(spacing: 0) {
+                DiscountView()
+                VStack {
+                    HeaderView()
+                }
+                .background(Color("Background"))
+            }
         }
     }
 }

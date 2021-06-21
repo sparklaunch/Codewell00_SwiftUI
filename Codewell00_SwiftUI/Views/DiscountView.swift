@@ -21,8 +21,9 @@ struct DiscountView: View {
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
             }
             .padding()
-            .background(Color(.black))
         }
+        .frame(minWidth: 0, maxWidth: .infinity)
+        .background(Color(.black))
     }
 }
 
