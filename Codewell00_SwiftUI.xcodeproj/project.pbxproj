@@ -13,6 +13,8 @@
 		2E95AC2A2680184100443CF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E95AC292680184100443CF5 /* Preview Assets.xcassets */; };
 		2E95AC33268018AE00443CF5 /* DiscountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC32268018AE00443CF5 /* DiscountView.swift */; };
 		2E95AC3526801B7700443CF5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC3426801B7700443CF5 /* HeaderView.swift */; };
+		2E95AC3726802D3100443CF5 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC3626802D3100443CF5 /* HeroView.swift */; };
+		2E95AC3926802E5900443CF5 /* HeroTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC3826802E5900443CF5 /* HeroTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2E95AC2B2680184100443CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E95AC32268018AE00443CF5 /* DiscountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountView.swift; sourceTree = "<group>"; };
 		2E95AC3426801B7700443CF5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2E95AC3626802D3100443CF5 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		2E95AC3826802E5900443CF5 /* HeroTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				2E95AC242680183F00443CF5 /* ContentView.swift */,
 				2E95AC32268018AE00443CF5 /* DiscountView.swift */,
 				2E95AC3426801B7700443CF5 /* HeaderView.swift */,
+				2E95AC3626802D3100443CF5 /* HeroView.swift */,
+				2E95AC3826802E5900443CF5 /* HeroTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +162,8 @@
 				2E95AC232680183F00443CF5 /* Codewell00_SwiftUIApp.swift in Sources */,
 				2E95AC33268018AE00443CF5 /* DiscountView.swift in Sources */,
 				2E95AC3526801B7700443CF5 /* HeaderView.swift in Sources */,
+				2E95AC3726802D3100443CF5 /* HeroView.swift in Sources */,
+				2E95AC3926802E5900443CF5 /* HeroTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
