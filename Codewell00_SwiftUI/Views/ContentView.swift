@@ -17,6 +17,22 @@ struct ContentView: View {
                 }
                 HeroView()
                 HeroTextView()
+                VStack(spacing: 0) {
+                    ForEach(features, id: \.self) { feature in
+                        FeatureItem(feature: feature)
+                    }
+                }
+                Spacer()
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .frame(height: 30)
+                    .background(Color("Background"))
+                GetStartedView()
+                Spacer()
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .frame(height: 30)
+                    .background(Color("Background"))
+                Logos()
+                    .padding(.vertical)
             }
         }
     }
@@ -25,6 +41,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewLayout(.sizeThatFits)
     }
 }

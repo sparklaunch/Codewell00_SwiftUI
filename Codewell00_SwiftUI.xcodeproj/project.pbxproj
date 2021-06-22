@@ -15,6 +15,11 @@
 		2E95AC3526801B7700443CF5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC3426801B7700443CF5 /* HeaderView.swift */; };
 		2E95AC3726802D3100443CF5 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC3626802D3100443CF5 /* HeroView.swift */; };
 		2E95AC3926802E5900443CF5 /* HeroTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC3826802E5900443CF5 /* HeroTextView.swift */; };
+		2E95AC3C26802FBB00443CF5 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC3B26802FBB00443CF5 /* Feature.swift */; };
+		2E95AC3E26802FE000443CF5 /* FeatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC3D26802FE000443CF5 /* FeatureModel.swift */; };
+		2E95AC402680305300443CF5 /* FeatureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC3F2680305300443CF5 /* FeatureItem.swift */; };
+		2E95AC42268033CE00443CF5 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95AC41268033CE00443CF5 /* GetStartedView.swift */; };
+		2ECAB10E2682A91B009AB045 /* Logos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB10D2682A91B009AB045 /* Logos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		2E95AC3426801B7700443CF5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		2E95AC3626802D3100443CF5 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
 		2E95AC3826802E5900443CF5 /* HeroTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTextView.swift; sourceTree = "<group>"; };
+		2E95AC3B26802FBB00443CF5 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		2E95AC3D26802FE000443CF5 /* FeatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureModel.swift; sourceTree = "<group>"; };
+		2E95AC3F2680305300443CF5 /* FeatureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItem.swift; sourceTree = "<group>"; };
+		2E95AC41268033CE00443CF5 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		2ECAB10D2682A91B009AB045 /* Logos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 		2E95AC212680183F00443CF5 /* Codewell00_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				2E95AC3A26802FB000443CF5 /* Models */,
 				2E95AC222680183F00443CF5 /* Codewell00_SwiftUIApp.swift */,
 				2E95AC312680184B00443CF5 /* Views */,
 				2E95AC262680184100443CF5 /* Assets.xcassets */,
@@ -85,8 +96,20 @@
 				2E95AC3426801B7700443CF5 /* HeaderView.swift */,
 				2E95AC3626802D3100443CF5 /* HeroView.swift */,
 				2E95AC3826802E5900443CF5 /* HeroTextView.swift */,
+				2E95AC3F2680305300443CF5 /* FeatureItem.swift */,
+				2E95AC41268033CE00443CF5 /* GetStartedView.swift */,
+				2ECAB10D2682A91B009AB045 /* Logos.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2E95AC3A26802FB000443CF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E95AC3B26802FBB00443CF5 /* Feature.swift */,
+				2E95AC3D26802FE000443CF5 /* FeatureModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,11 +182,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E95AC252680183F00443CF5 /* ContentView.swift in Sources */,
+				2ECAB10E2682A91B009AB045 /* Logos.swift in Sources */,
+				2E95AC3C26802FBB00443CF5 /* Feature.swift in Sources */,
+				2E95AC3E26802FE000443CF5 /* FeatureModel.swift in Sources */,
 				2E95AC232680183F00443CF5 /* Codewell00_SwiftUIApp.swift in Sources */,
 				2E95AC33268018AE00443CF5 /* DiscountView.swift in Sources */,
 				2E95AC3526801B7700443CF5 /* HeaderView.swift in Sources */,
 				2E95AC3726802D3100443CF5 /* HeroView.swift in Sources */,
 				2E95AC3926802E5900443CF5 /* HeroTextView.swift in Sources */,
+				2E95AC402680305300443CF5 /* FeatureItem.swift in Sources */,
+				2E95AC42268033CE00443CF5 /* GetStartedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
