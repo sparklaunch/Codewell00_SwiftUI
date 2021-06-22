@@ -33,6 +33,7 @@ struct ContentView: View {
                     .background(Color("Background"))
                 Logos()
                     .padding(.vertical)
+                EscrowView()
             }
         }
     }
