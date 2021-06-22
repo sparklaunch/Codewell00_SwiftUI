@@ -35,6 +35,9 @@ struct ContentView: View {
                     .padding(.vertical)
                 EscrowView()
             }
+            VStack(spacing: 0) {
+                EditorView()
+            }
         }
     }
 }
