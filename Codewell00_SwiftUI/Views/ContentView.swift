@@ -38,6 +38,7 @@ struct ContentView: View {
             VStack(spacing: 0) {
                 EditorView()
                 Footer()
+                Sitemap()
             }
         }
     }

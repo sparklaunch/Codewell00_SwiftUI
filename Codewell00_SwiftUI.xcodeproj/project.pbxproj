@@ -23,6 +23,10 @@
 		2ECAB1102682AA0E009AB045 /* EscrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB10F2682AA0E009AB045 /* EscrowView.swift */; };
 		2ECAB1122682AD1E009AB045 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB1112682AD1E009AB045 /* EditorView.swift */; };
 		2ECAB1142682B05C009AB045 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB1132682B05C009AB045 /* Footer.swift */; };
+		2ECAB1162682B21B009AB045 /* Sitemap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB1152682B21B009AB045 /* Sitemap.swift */; };
+		2ECAB1182682B382009AB045 /* SitemapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB1172682B382009AB045 /* SitemapItem.swift */; };
+		2ECAB11A2682B548009AB045 /* SitemapElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB1192682B548009AB045 /* SitemapElement.swift */; };
+		2ECAB11C2682B589009AB045 /* SitemapElementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB11B2682B589009AB045 /* SitemapElementModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		2ECAB10F2682AA0E009AB045 /* EscrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscrowView.swift; sourceTree = "<group>"; };
 		2ECAB1112682AD1E009AB045 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		2ECAB1132682B05C009AB045 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		2ECAB1152682B21B009AB045 /* Sitemap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sitemap.swift; sourceTree = "<group>"; };
+		2ECAB1172682B382009AB045 /* SitemapItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitemapItem.swift; sourceTree = "<group>"; };
+		2ECAB1192682B548009AB045 /* SitemapElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitemapElement.swift; sourceTree = "<group>"; };
+		2ECAB11B2682B589009AB045 /* SitemapElementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitemapElementModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,8 @@
 				2ECAB10F2682AA0E009AB045 /* EscrowView.swift */,
 				2ECAB1112682AD1E009AB045 /* EditorView.swift */,
 				2ECAB1132682B05C009AB045 /* Footer.swift */,
+				2ECAB1152682B21B009AB045 /* Sitemap.swift */,
+				2ECAB1172682B382009AB045 /* SitemapItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,6 +127,8 @@
 			children = (
 				2E95AC3B26802FBB00443CF5 /* Feature.swift */,
 				2E95AC3D26802FE000443CF5 /* FeatureModel.swift */,
+				2ECAB1192682B548009AB045 /* SitemapElement.swift */,
+				2ECAB11B2682B589009AB045 /* SitemapElementModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,17 +204,21 @@
 			files = (
 				2E95AC252680183F00443CF5 /* ContentView.swift in Sources */,
 				2ECAB10E2682A91B009AB045 /* Logos.swift in Sources */,
+				2ECAB11A2682B548009AB045 /* SitemapElement.swift in Sources */,
 				2E95AC3C26802FBB00443CF5 /* Feature.swift in Sources */,
 				2E95AC3E26802FE000443CF5 /* FeatureModel.swift in Sources */,
 				2ECAB1142682B05C009AB045 /* Footer.swift in Sources */,
 				2E95AC232680183F00443CF5 /* Codewell00_SwiftUIApp.swift in Sources */,
+				2ECAB1162682B21B009AB045 /* Sitemap.swift in Sources */,
 				2ECAB1102682AA0E009AB045 /* EscrowView.swift in Sources */,
 				2E95AC33268018AE00443CF5 /* DiscountView.swift in Sources */,
 				2E95AC3526801B7700443CF5 /* HeaderView.swift in Sources */,
 				2ECAB1122682AD1E009AB045 /* EditorView.swift in Sources */,
 				2E95AC3726802D3100443CF5 /* HeroView.swift in Sources */,
 				2E95AC3926802E5900443CF5 /* HeroTextView.swift in Sources */,
+				2ECAB11C2682B589009AB045 /* SitemapElementModel.swift in Sources */,
 				2E95AC402680305300443CF5 /* FeatureItem.swift in Sources */,
+				2ECAB1182682B382009AB045 /* SitemapItem.swift in Sources */,
 				2E95AC42268033CE00443CF5 /* GetStartedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
