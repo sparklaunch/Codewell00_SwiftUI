@@ -22,6 +22,7 @@
 		2ECAB10E2682A91B009AB045 /* Logos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB10D2682A91B009AB045 /* Logos.swift */; };
 		2ECAB1102682AA0E009AB045 /* EscrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB10F2682AA0E009AB045 /* EscrowView.swift */; };
 		2ECAB1122682AD1E009AB045 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB1112682AD1E009AB045 /* EditorView.swift */; };
+		2ECAB1142682B05C009AB045 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECAB1132682B05C009AB045 /* Footer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		2ECAB10D2682A91B009AB045 /* Logos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logos.swift; sourceTree = "<group>"; };
 		2ECAB10F2682AA0E009AB045 /* EscrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscrowView.swift; sourceTree = "<group>"; };
 		2ECAB1112682AD1E009AB045 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		2ECAB1132682B05C009AB045 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2ECAB10D2682A91B009AB045 /* Logos.swift */,
 				2ECAB10F2682AA0E009AB045 /* EscrowView.swift */,
 				2ECAB1112682AD1E009AB045 /* EditorView.swift */,
+				2ECAB1132682B05C009AB045 /* Footer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				2ECAB10E2682A91B009AB045 /* Logos.swift in Sources */,
 				2E95AC3C26802FBB00443CF5 /* Feature.swift in Sources */,
 				2E95AC3E26802FE000443CF5 /* FeatureModel.swift in Sources */,
+				2ECAB1142682B05C009AB045 /* Footer.swift in Sources */,
 				2E95AC232680183F00443CF5 /* Codewell00_SwiftUIApp.swift in Sources */,
 				2ECAB1102682AA0E009AB045 /* EscrowView.swift in Sources */,
 				2E95AC33268018AE00443CF5 /* DiscountView.swift in Sources */,
